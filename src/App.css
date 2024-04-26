@@ -1,0 +1,245 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    flex:1;
+    align-items:center;
+    padding: 5px 20px;
+    height:60px;
+    border-bottom: 1px solid lightgray;
+
+}
+.header_icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    width: fit-content;
+    position:relative;
+    left:1600px;
+}
+.header_logo {
+    display:flex;
+    align-items: center;
+}
+
+.header_logo span{
+    font-size:22px;
+    margin-left:10px;
+    color:gray;
+    font-weight: 500;
+}
+
+.header_logo img{
+    width:40px ;
+
+
+}
+.header_search{
+    display:flex;
+    align-items:center;
+    width:700px;
+    background-color: whitesmoke;
+    padding:12px;
+    border-radius:10px;
+}
+.header_search input{
+    background-color: transparent;
+    border:0;
+    outline:0;
+    flex:1;
+}
+.header_icons svg.MuiSvgIcon-root{
+    color:rgb(36,36,36);
+    margin:0px 10px;
+}
+
+.header_icons{
+    display:flex;
+    align-items:center;
+
+}
+.header_icons span {
+    display:flex;
+    align-items:center;
+    margin-left:16px;
+}
+.sidebar{
+    margin-top: 10px;
+    display:flex;
+    flex-direction: column;
+}
+.sidebar_btn  button{
+    background-color: rgb(160, 160, 160);
+    background: transparent;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding:5px 10px;
+    box-shadow:2px 2px 2px #ccc;
+    margin-left: 20px;
+}
+.sidebar_btn button span{
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.sidebar_options{
+        margin-top:10px;
+        
+}
+.sidebar_option{
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.sidebar_option:hover{
+    background: whitesmoke;
+    cursor: pointer;
+}
+.sidebar_option span {
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(78, 78, 78)
+}
+
+.sidebar_option svg.MuiSvgIcon-root {
+    color:rgb(78, 78, 78);
+}
+.sidebar_option.Active svg{
+    background-color:#1367d2 ;
+}
+
+.sidebar_option.Active{
+    background-color: #e8f0fe;
+}
+.sidebar_option.Active span{
+    background-color:#1367d2 ;
+}
+
+.modal_pop:hover{
+    background-color: lightgray;
+    border:transparent;
+}
+
+.modal_pop:focus{
+    border: transparent;
+    box-shadow: outset;
+}
+.modalBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.modal_pop:focus{
+    border: transparent;
+}
+.modal_pop{
+    top:50%;
+    background-color: #fff;
+    width:250px;
+    margin:0px auto ;
+    position:relative;
+    transform: translateY(-50%);
+    padding:20px;
+    border-radius: 80px;
+    border: transparent;
+}
+
+.modalHeading{
+     text-align:center;
+     border-bottom: 1px solid lightgray;
+     height:40px;
+}
+
+input.post_submit {
+    width:fit-content;
+    background-color: lightgray;
+    padding:20px;
+    color:#333131;
+    text-transform:uppercase;
+    font-size:16px;
+    border:0;
+    outline:0;
+    border-radius:50px;
+    cursor:pointer;
+    position:relative;
+    margin-top:20px;
+    box-shadow: outset;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+input.post_submit:hover{
+    font-weight: bold;
+    border: 1px solid lightgray;
+    color:#000000;
+}
+
+input.post_file{
+    width:100%;
+    position: relative;
+    left:10px;
+    padding:10px;
+    text-align: center;
+    color:#212325;
+}
+
+.input_label{
+    padding:10px;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.material-symbols-outlined{
+    font-size: 32px;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #000000;
+    border-color: #000000 transparent #000000 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  #publish_icon{
+    position: relative;
+    top:7px;
+    font-size: 55px;
+    padding:10px;
+  }
+
+  #publish_icon:hover{
+    color:#4c9c92
+  }
+  
+#sidebar_1{
+    background-color: lightgray;
+}

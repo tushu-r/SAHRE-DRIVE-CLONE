@@ -1,0 +1,135 @@
+.data{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    padding:10px 0px 0px 20px ;
+}
+
+
+.data_header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    height:40px;
+}
+
+.data_headerLeft{
+    display:flex;
+    align-items: center;
+}
+
+.data_headerRight svg{
+    margin:0px 10px ;
+}
+
+.content{
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    width: 1570px;
+    height:720px;
+
+}
+.details_Row{
+    border-bottom: 1px solid lightgray;
+}
+.content::-webkit-scrollbar{
+    width:0;
+}
+.data_grid{ 
+    display:flex;
+    overflow-x: scroll;
+    align-items:center;
+    width: 1570px;
+}
+.data_grid::-webkit-scrollbar{
+    width:0;
+}
+.data_file{
+    text-align:center;
+    border:1px solid rgb(204 204 204 / 46%);
+    margin:10px;
+    min-width:200px;
+    padding:10px 0px 0px 0px ;
+    border-radius:5px;
+}
+.data_file  svg{
+    font-size:60px;
+    color:gray;
+}
+.data_file p{
+    border-top:1px solid #ccc ;
+    margin-top:5px;
+    font-size:12px;
+    background-color: whitesmoke;
+    padding:10px 0px ;
+}
+
+.detailsRow{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding:10px;
+}
+.detailsRow p {
+    display:flex;
+    align-items:center;
+    font-size:13px;
+}
+
+.detailsRow p b{
+    display:flex;
+    align-items:center;
+}
+
+.detailsRow p svg{
+    margin:10px;
+    font-size:22px;
+}
+.details_Row p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    color:rgb(82, 81, 81) ;
+}
+.details_Row{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding:10px;
+    color:rgb(82, 81, 81) ;
+}
+
+.data_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#link{
+    text-decoration: none;
+    color:rgb(82, 81, 81) ;
+}
+#link:hover{
+    text-decoration: solid ;
+    text-decoration-color: aliceblue;
+    box-shadow: 2px 2px lightgray ;
+    padding: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.but{
+    background-color:rgb(255,255,255);
+    border-radius:20px;
+}
+
+
